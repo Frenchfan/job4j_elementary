@@ -5,21 +5,30 @@ public class SwitchWeek {
         String name;
         switch (day) {
             case 1:
-                return "Понедельник";
+                name = "Понедельник";
+                break;
             case 2:
-                return "Вторник";
+                name = "Вторник";
+                break;
             case 3:
-                return "Среда";
+                name = "Среда";
+                break;
             case 4:
-                return "Четверг";
+                name = "Четверг";
+                break;
             case 5:
-                return "Пятница";
+                name = "Пятница";
+                break;
             case 6:
-                return "Суббота";
+                name = "Суббота";
+                break;
             case 7:
-                return "Воскресенье";
+                name = "Воскресенье";
+                break;
             default:
-                return "Ошибка";
+                name = "Ошибка";
+                break;
         }
+        return name;
     }
 }
