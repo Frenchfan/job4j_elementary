@@ -16,7 +16,6 @@ public class RightShift {
         System.arraycopy(preresult, 0, nums, 0, nums.length);
     }
 
-    // метод делает сдвиг с шагом 1
     private static void shift(int[] nums) {
         int[] preresult = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {

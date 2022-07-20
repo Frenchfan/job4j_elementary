@@ -18,7 +18,6 @@ public class TriangleMatrix {
             }
         }
         System.out.println(Arrays.deepToString(triangle));
-        // your code here
         return triangle;
     }
 }

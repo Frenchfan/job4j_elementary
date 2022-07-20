@@ -10,7 +10,6 @@ public class Transposition {
                 result[j][i] = matrix[i][j];
             }
         }
-        // your code here
         return result;
     }
 }
